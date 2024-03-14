@@ -57,7 +57,7 @@ print("\nClassification Peport:\n",cr)
 from sklearn import metrics
 cm_display = metrics.ConfusionMatrixDisplay(confusion_matrix=confusion,display_labels=[True,False])
 cm_display.plot()
-
+```
 ## Output:
 
 ![image](https://github.com/Harinimuthu17/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/130278614/86f13b52-4b39-4fe5-bccd-390bddf77726)
